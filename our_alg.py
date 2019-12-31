@@ -554,7 +554,7 @@ for p in range(parent):
     for l in range(len(LIMIT_LIST)):
         LIMIT = LIMIT_LIST[l]
         #print(LIMIT)
-        CSR_LIST = CSR_ORDER(char, LIMIT[0], LIMIT[1], EMPLOYEE_t) #員工沒用度排序
+        CSR_LIST = CSR_ORDER(char, LIMIT[0], LIMIT[1], EMPLOYEE_t,Posi) #員工沒用度排序
         for j in LIMIT[2]:
             if LIMIT[0] == 'lower' :
                 BOUND = LIMIT[4]
